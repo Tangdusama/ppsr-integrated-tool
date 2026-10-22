@@ -4,10 +4,11 @@
 
 ## 下载
 
-现有用户在软件内检查更新，即可升级到 [0.3.2](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v0.3.2)。首次安装请下载 [0.3.1 基础安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v0.3.1)，安装后再在线更新。支持 Windows 10/11 64 位。
+前往 [0.3.2 下载页面](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v0.3.2)。新玩家可直接安装最新版，现有用户也可在软件内更新。支持 Windows 10/11 64 位。
 
-- **Online-Setup-x64.exe（推荐）**：约 290 MB，内置 Python、Qt、Node 和所有必要依赖。首次启动从 GitHub 下载约 1.49 GB 图片素材，提供下载进度、暂停续传、失败重试和签名/哈希校验。完成后素材保存在本地，后续不重复下载。
-- **Setup-x64.exe（完整版）**：约 1.77 GB，已包含全部素材，适合首次使用时不方便联网的电脑。
+- **[Online-Setup-x64.exe（轻量版）](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v0.3.2/ppSR-Integrated-Tool-0.3.2-Online-Setup-x64.exe)**：约 291 MB，内置 Python、Qt、Node 和所有必要依赖。首次启动从 GitHub 下载约 1.49 GB 图片素材，提供下载进度、暂停续传、失败重试和签名/哈希校验。完成后素材保存在本地，后续不重复下载。
+
+- **[Setup-x64.exe（完整版）](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v0.3.2/ppSR-Integrated-Tool-0.3.2-Setup-x64.exe)**：约 1.77 GB，已包含全部素材，适合首次使用时不方便联网的电脑。
 
 两种版本安装后的功能相同。轻量版减少安装程序本身体积，首次使用仍需要下载完整图片资源。软件不会携带发布者的账号、路径、密码或玩家配置，也不包含游戏客户端与 ppSR 服务端。
 
@@ -23,13 +24,12 @@
 
 0.2.x 属于开发基础环境，迁移到 0.3 独立版需要使用安装包。`update.zip`、`latest.json`、`assets.zip` 与 `assets-manifest.json` 由软件自动读取，无需玩家手动解压。
 
-当前软件版本为 0.3.2。已进行同机隔离安装与运行测试，尚不能替代其他电脑及所有服务端版本的实际游戏验证。
+当前软件版本为 0.3.2。轻量版和完整版均经过独立目录安装、运行环境、接口及快捷方式检查。遇到问题时可在“错误日志”导出 TXT，反馈错误代码和操作步骤。
 
 ## 致谢
 
 本地编辑功能基于 Firefly SRTools，保留上游标识与相关说明。组件许可证包含在安装目录。此仓库仅用于集成工具发布，不提供游戏包体、服务端程序、服务器登录密码或用户配置。
 
-
 ## 0.3.2 更新内容
 
-遗器等级支持手动输入，修复 0 级保存；修复旧安装记录的指纹误报、更新入口与失败恢复；修复服务端升级后旧资源残留导致一键启动退出。本次为约 6.34 MB 的软件内更新，无需重复下载运行环境或素材。
+遗器等级支持手动输入，修复 0 级保存；修复旧安装记录的指纹误报、更新入口与失败恢复；修复服务端升级后旧资源残留导致一键启动退出。4.4 异相仲裁名称已更正为“尘世卷中”。已有用户的软件内更新包约 6.34 MB；新玩家可选择内置运行环境的轻量版或完整版。
