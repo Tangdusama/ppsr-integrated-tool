@@ -2,9 +2,9 @@
 
 把角色配装、怪物配置、服务端启动和版本更新放在一个窗口里，方便准备战斗、调整数值和做伤害测试。
 
-**Windows 10 / 11 · 64 位 · 当前版本 0.3.3 · 浅色 / 深色主题**
+**Windows 10 / 11 · 64 位 · 当前版本 0.3.4 · 浅色 / 深色主题**
 
-[下载安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/latest) · [查看 0.3.3 更新内容](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v0.3.3) · [反馈问题](https://github.com/Tangdusama/ppsr-integrated-tool/issues)
+[下载安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/latest) · [查看 0.3.4 更新内容](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v0.3.4) · [反馈问题](https://github.com/Tangdusama/ppsr-integrated-tool/issues)
 
 ## 角色配置：配装与技能集中调整
 
@@ -13,7 +13,7 @@
 - **角色与光锥**：调整角色等级、终结技能量、秘技开关、光锥等级与叠影；支持相应角色的强化形态设置。
 - **遗器**：编辑套装、主属性、副属性与等级。可一次更换内圈两件套或外圈四件套；等级既能用常用滑条调整，也能直接输入整数。
 - **技能与星魂**：查看中文说明、调整行迹等级与星魂。较长的说明可滚动阅读。
-- **角色形态**：切换三月七的存护 / 巡猎形态，以及主角性别和已支持的命途。可用形态取决于对应服务端与客户端版本。
+- **角色形态**：切换三月七的存护 / 巡猎形态，以及主角性别和已支持的命途。可用形态取决于对应服务端与客户端版本。新版服务端未提供在线切换接口时，关闭游戏和服务端后应用，再重新启动。
 
 ![角色配置与技能说明（浅色界面）](docs/images/skills-light.png)
 
@@ -27,7 +27,7 @@
 
 可选择已有的混沌回忆、虚构叙事、末日幻影、异相仲裁等关卡，也可使用自定义敌人，选择 Stage ID 后编辑每一波的怪物和等级。
 
-- **自定义血量**：按已配置怪物选择修改目标，支持设置为 10 亿血量；输入范围按当前已核验的服务端限制检查。修改后重新进入战斗生效。
+- **自定义血量**：按已配置怪物选择修改目标，支持设置为 10 亿血量；输入范围为 1–4,294,967,295，更新服务端后无需重新登记。修改后重新进入战斗生效。
 - **场地效果**：正面、负面效果分开选择，支持搜索与全选当前范围。目录收录王棋 / 骑士相关效果，不包含虚构、末日和贪饕侵蚀。部分效果需要对应关卡或怪物机制才能触发。
 - **伤害统计插件**：提供添加与移除入口，方便打桩测试时记录结果。
 
@@ -62,8 +62,8 @@ srtool 资料更新只更新可选角色、怪物、关卡和相关说明，不�
 
 | 安装包 | 大小 | 适合情况 |
 | --- | --- | --- |
-| [轻量版 Online](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v0.3.3/ppSR-Integrated-Tool-0.3.3-Online-Setup-x64.exe) | 约 296 MB | 安装后首次启动联网下载约 1.49 GB 图片素材，支持暂停、续传与重试。 |
-| [完整安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v0.3.3/ppSR-Integrated-Tool-0.3.3-Setup-x64.exe) | 约 1.77 GB | 已包含图片素材，首次使用不需要另行下载素材。 |
+| [轻量版 Online](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v0.3.4/ppSR-Integrated-Tool-0.3.4-Online-Setup-x64.exe) | 约 296 MB | 安装后首次启动联网下载约 1.49 GB 图片素材，支持暂停、续传与重试。 |
+| [完整安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v0.3.4/ppSR-Integrated-Tool-0.3.4-Setup-x64.exe) | 约 1.77 GB | 已包含图片素材，首次使用不需要另行下载素材。 |
 
 1. **安装工具**，轻量版先完成首次素材下载。不要安装到游戏目录内。
 2. 打开 **“启动与连接”**，扫描或手动选择已经准备好的服务端和客户端，保存路径后重启工具。
@@ -72,7 +72,7 @@ srtool 资料更新只更新可选角色、怪物、关卡和相关说明，不�
 
 安装包不包含游戏客户端和 ppSR 服务端，需要自行准备兼容版本。使用 Discord 更新来源时需自行登录；下载软件安装包和软件更新不需要 GitHub 账号。
 
-已有 **0.3.0-preview、0.3.1、0.3.2** 的用户，可在 **“版本更新 → 软件更新”** 升级到 0.3.3，更新包约 11.2 MB。保存编辑后按提示安装并正常退出，下次打开使用新版。配置档、草稿和设置会保留；普通软件更新不会重复下载全套图片。`update.zip` 由工具自动处理，不用于首次安装。
+已有 **0.3.0-preview、0.3.1、0.3.2、0.3.3** 的用户，可在 **“版本更新 → 软件更新”** 升级到 0.3.4，更新包约 11.2 MB。保存编辑后按提示安装并正常退出，下次打开使用新版。配置档、草稿和设置会保留；普通软件更新不会重复下载全套图片。`update.zip` 由工具自动处理，不用于首次安装。
 
 软件更新会校验签名与文件哈希。轻量版下载较慢时，可直接选择完整安装包。向其他玩家分享时，请发送发布页的安装包，不要发送自己已经使用过的整个安装目录。
 
