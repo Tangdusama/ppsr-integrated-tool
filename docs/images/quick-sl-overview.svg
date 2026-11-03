@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#dbe2e7" stroke-width=".6"/></pattern></defs>
+<rect width="1200" height="760" fill="#f0f3f5"/>
+<g font-family="Microsoft YaHei,Arial,sans-serif" fill="#161a1d">
+<rect width="188" height="760" fill="#fff"/><path d="M188 0V760" stroke="#cdd5db"/>
+<text x="24" y="48" font-size="26" font-weight="700">ppSR</text><text x="24" y="72" font-size="13">集成工具</text>
+<text x="24" y="125" font-size="10" letter-spacing="2" fill="#59636a">// WORKSPACE</text>
+<g font-size="14"><text x="24" y="166">01　总览</text><text x="24" y="214">02　启动与连接</text><text x="24" y="262">03　角色配置</text><text x="24" y="310">04　怪物配置</text><rect x="12" y="330" width="164" height="47" fill="#161a1d"/><rect x="12" y="330" width="4" height="47" fill="#7de6ff"/><text x="24" y="359" fill="#fff">05　快速 SL</text><text x="24" y="406">06　版本更新</text><text x="24" y="454">07　错误日志</text></g>
+<text x="218" y="39" font-size="12" fill="#59636a">ppSR集成工具　/　快速 SL</text><text x="1166" y="39" text-anchor="end" font-size="11" fill="#59636a">功能示意 · 演示数据</text>
+<path d="M188 60H1200" stroke="#cdd5db"/>
+<text x="218" y="96" font-size="10" letter-spacing="2" fill="#59636a">// BATTLE TIMELINE</text><text x="218" y="130" font-size="28" font-weight="700">把失误之前的选择，留在时间线上。</text>
+<rect x="218" y="157" width="952" height="273" fill="#fff" stroke="#cdd5db"/><rect x="219" y="158" width="950" height="271" fill="url(#grid)"/>
+<text x="240" y="187" font-size="13" font-weight="700">当前战斗　/　分支时间线</text><text x="1148" y="187" text-anchor="end" font-size="11" fill="#59636a">同一行动值的节点可聚合、缩放查看</text>
+<g stroke="#49636e" stroke-width="3" fill="none"><path d="M275 304H1090"/><path d="M490 304C550 304 550 241 620 241H1090"/><path d="M755 304C820 304 820 363 890 363H1090"/></g>
+<g fill="#fff" stroke="#49636e" stroke-width="3"><circle cx="275" cy="304" r="6"/><circle cx="490" cy="304" r="7"/><circle cx="755" cy="304" r="7"/><circle cx="1030" cy="304" r="7"/><circle cx="715" cy="241" r="8" fill="#7de6ff"/><circle cx="1030" cy="241" r="7"/><circle cx="970" cy="363" r="7"/></g>
+<g font-size="12"><text x="252" y="330">战斗开始</text><text x="452" y="330">终结技前</text><text x="718" y="330">第二波开始</text><text x="996" y="330">原分支</text><text x="677" y="224" font-weight="700">优先处理精英</text><text x="995" y="224">继续推进</text><text x="939" y="385">保留战技点</text></g>
+<path d="M275 406H1090" stroke="#9aaab3"/><g font-size="10" fill="#59636a"><text x="272" y="421">0</text><text x="476" y="421">100</text><text x="681" y="421">200</text><text x="886" y="421">300</text><text x="1050" y="421">400 行动值</text></g>
+<rect x="218" y="446" width="952" height="166" fill="#fff" stroke="#cdd5db"/>
+<rect x="234" y="462" width="220" height="132" fill="#20272c"/><path d="M250 573L296 520 326 550 366 500 437 573" fill="none" stroke="#7de6ff" stroke-width="2"/><text x="344" y="487" text-anchor="middle" font-size="12" fill="#ededed">节点截图预览区</text><text x="344" y="586" text-anchor="middle" font-size="10" fill="#aab4bb">存档时捕获游戏窗口</text>
+<text x="476" y="483" font-size="18" font-weight="700">优先处理精英</text><text x="476" y="512" font-size="12" fill="#59636a">行动值 216　 /　 第 8 回合　 /　 已记录 78 个动作</text>
+<g font-size="12"><rect x="476" y="536" width="124" height="38" fill="#161a1d"/><text x="538" y="560" text-anchor="middle" fill="#fff">回到此节点</text><rect x="610" y="536" width="100" height="38" fill="#f0f3f5" stroke="#cdd5db"/><text x="660" y="560" text-anchor="middle">重命名</text><rect x="720" y="536" width="100" height="38" fill="#f0f3f5" stroke="#cdd5db"/><text x="770" y="560" text-anchor="middle">删除节点</text><text x="873" y="560">回放速度　4 ×</text></g>
+<rect x="218" y="628" width="952" height="96" fill="#fff" stroke="#cdd5db"/><text x="238" y="653" font-size="13" font-weight="700">行动明细</text><text x="238" y="679" font-size="12" fill="#59636a">按顺序查看角色行动、怪物行动与场地事件；回放时核对行动与状态。</text><text x="238" y="705" font-size="11" fill="#59636a">仅限当前战斗。正常可操作回合才能保存；更换配置后重新挑战。删除节点会同时删除依赖它的后续分支。</text>
+</g></svg>
