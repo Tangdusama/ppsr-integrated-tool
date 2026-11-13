@@ -2,9 +2,16 @@
 
 在一个窗口里完成角色配装、关卡与怪物配置、服务端和客户端启动。想比较不同的战斗操作时，可以用快速 SL 保存节点、回到节点，再尝试另一种选择。
 
-**Windows 10 / 11 · 64 位 · 当前版本 1.0.1 · 浅色 / 深色主题**
+**Windows 10 / 11 · 64 位 · 当前版本 1.0.2 · 浅色 / 深色主题**
 
-[下载安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/latest) · [查看 1.0.1 更新内容](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v1.0.1) · [反馈问题](https://github.com/Tangdusama/ppsr-integrated-tool/issues)
+[下载安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/latest) · [查看 1.0.2 更新内容](https://github.com/Tangdusama/ppsr-integrated-tool/releases/tag/v1.0.2) · [反馈问题](https://github.com/Tangdusama/ppsr-integrated-tool/issues)
+
+## 1.0.2 新增与调整
+
+- **客户端中英文切换**：在版本更新页选择简体中文或 English，重启客户端生效，语音保持原样。
+- **遗器编辑三列布局**：主设置、竖排部位和竖排副词条并列，保留遗器图标。
+- **星魂图片修正**：艾莲、耀嘉音第 3 和第 5 星魂使用对应图片。
+- **4.7.51 快速 SL 适配**：增加客户端接口与回放位置配置，保留差异诊断和日志导出。
 
 ## 角色配置：配装与技能集中调整
 
@@ -42,7 +49,7 @@
 
 ## 快速 SL：从保存的回合再试一次
 
-当前回放模块尚未适配 4.7.51 客户端，加载可能提示 SF-REPLAY-032；普通启动和配置编辑不受此限制。
+1.0.2 增加了 4.7.51 客户端适配。四倍回档和续战仍需实战测试；出现卡停或回放差异时，请在错误日志中导出诊断，并附队伍、关卡和操作步骤反馈。
 
 在角色正常可操作回合保存节点。需要重试时，选中节点，让游戏从本场战斗开始按记录加速重放，到达节点后继续操作。回放速度可选 1×、2×、4×；实际等待时间与节点之前的战斗长度有关。
 
@@ -90,8 +97,8 @@ srtool 资料更新只更新可选角色、怪物、关卡和相关说明，不�
 
 | 安装包 | 大小 | 适合情况 |
 | --- | --- | --- |
-| [轻量版 Online](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v1.0.1/ppSR-Integrated-Tool-1.0.1-Online-Setup-x64.exe) | 约 453 MB | 安装后首次启动联网下载约 1.49 GB 图片素材，支持暂停、续传与重试。 |
-| [完整安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v1.0.1/ppSR-Integrated-Tool-1.0.1-Setup-x64.exe) | 约 1.93 GB | 已包含图片素材，首次使用不需要另行下载素材。 |
+| [轻量版 Online](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v1.0.2/ppSR-Integrated-Tool-1.0.2-Online-Setup-x64.exe) | 约 456 MB | 安装后首次启动联网下载约 1.49 GB 图片素材，支持暂停、续传与重试。 |
+| [完整安装包](https://github.com/Tangdusama/ppsr-integrated-tool/releases/download/v1.0.2/ppSR-Integrated-Tool-1.0.2-Setup-x64.exe) | 约 1.93 GB | 已包含图片素材，首次使用不需要另行下载素材。 |
 
 1. **安装工具**，轻量版先完成首次素材下载。不要安装到游戏目录内。
 
@@ -103,7 +110,7 @@ srtool 资料更新只更新可选角色、怪物、关卡和相关说明，不�
 
 安装包不包含游戏客户端和 ppSR 服务端，需要自行准备兼容版本。使用 Discord 更新来源时需自行登录；下载软件安装包和软件更新不需要 GitHub 账号。
 
-已有 **1.0.0 / 0.3.4** 的用户，可在 **“版本更新 → 软件更新”** 升级到 1.0.1，更新包同时补齐快速 SL 运行组件。保存编辑后按提示安装并正常退出，下次打开使用新版。配置档、草稿和设置会保留；已经安装且校验一致的图片素材继续使用，不重复下载全套图片。`update.zip` 由工具自动处理，不用于首次安装。
+已有 **1.0.1 / 1.0.0 / 0.3.4** 的用户，可在 **“版本更新 → 软件更新”** 升级到 1.0.2，更新包同时补齐快速 SL 运行组件。保存编辑后按提示安装并正常退出，下次打开使用新版。配置档、草稿和设置会保留；已经安装且校验一致的图片素材继续使用，不重复下载全套图片。`update.zip` 由工具自动处理，不用于首次安装。
 
 软件更新会校验签名与文件哈希。轻量版下载较慢时，可直接选择完整安装包。向其他玩家分享时，请发送发布页的安装包，不要发送自己已经使用过的整个安装目录。
 
